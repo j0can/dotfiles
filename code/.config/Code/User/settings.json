@@ -1,0 +1,13 @@
+{
+    "redhat.telemetry.enabled": false,
+    "workbench.colorTheme": "Atom One Darker",
+    "editor.formatOnSave": true,
+    "[terraform]": {
+        "editor.defaultFormatter": "hashicorp.terraform",
+        "editor.formatOnSave": true
+    },
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.scrollback": 1000000,
+    "yaml.format.enable": false
+}

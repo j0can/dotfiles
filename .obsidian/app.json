@@ -1,0 +1,13 @@
+{
+    "obsidianCss": false,
+    "foldHeading": true,
+    "foldIndent": true,
+    "autoConvertHtml": true,
+    "showLineNumber": false,
+    "readableLineLength": false,
+    "smartIndentList": true,
+    "alwaysUpdateLinks": true,
+    "attachmentFolderPath": "./",
+    "legacyEditor": false,
+    "livePreview": true
+  }

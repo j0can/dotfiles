@@ -2,7 +2,7 @@ module.exports = {
     config: {
         updateChannel: 'stable',
         // default font size in pixels for all tabs
-        fontSize: 12,
+        fontSize: 13,
         fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
         fontWeight: 'normal',
         fontWeightBold: 'bold',
@@ -112,7 +112,11 @@ module.exports = {
     //   `hyperpower`
     //   `@company/project`
     //   `project#1.0.1`
-    plugins: ["hyper-pane", "hyperline", "hyperterm-one-dark"],
+    plugins: [
+	    "hyper-pane", 
+	    "hyperline", 
+	    "hyperterm-one-dark"
+    ],
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
     // to load it and avoid it being `npm install`ed

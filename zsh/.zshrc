@@ -20,6 +20,7 @@ eval "$(starship init zsh)"
 
 #Aliases
 alias g="git"
+alias gs="git status"
 alias gp="git push"
 alias gpl="git pull"
 alias gco="git checkout"

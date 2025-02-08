@@ -10,6 +10,7 @@ return require('packer').startup(function(use)
     use 'lewis6991/gitsigns.nvim'
     use 'folke/tokyonight.nvim'
     use 'nvim-lualine/lualine.nvim'
+    use 'nvim-tree/nvim-web-devicons'
     use {
     'nvim-tree/nvim-tree.lua',
     requires = { 'nvim-tree/nvim-web-devicons' }

@@ -27,6 +27,7 @@ alias gco="git checkout"
 
 alias zshcfg="nvim ~/.zshrc"
 alias vimcfg="nvim ~/.config/nvim/"
+alias nv="nvim"
 
 alias act="source .venv/bin/activate"
 alias dea="source .venv/bin/deactivate"

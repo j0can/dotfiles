@@ -6,4 +6,4 @@ vim.o.expandtab = true
 vim.o.smartindent = true
 vim.o.wrap = false
 vim.o.termguicolors = true
-vim.cmd('colorscheme tokyonight')
+vim.cmd('colorscheme onedark')

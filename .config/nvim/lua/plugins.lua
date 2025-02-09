@@ -8,7 +8,8 @@ return require('packer').startup(function(use)
     use 'hrsh7th/cmp-nvim-lsp'
     use 'tpope/vim-fugitive'
     use 'lewis6991/gitsigns.nvim'
-    use 'folke/tokyonight.nvim'
+    -- use 'folke/tokyonight.nvim'
+    use 'navarasu/onedark.nvim'
     use 'nvim-lualine/lualine.nvim'
     use 'nvim-tree/nvim-web-devicons'
     use {

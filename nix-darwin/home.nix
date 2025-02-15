@@ -36,6 +36,8 @@
     git
 
     #tools
+    pamixer
+    rofi-screenshot
 
   ];
 

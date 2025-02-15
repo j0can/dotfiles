@@ -1,22 +1,16 @@
-export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
-
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="agnoster"
-SPACESHIP_CHAR_SYMBOL="⚡"
-export SPACESHIP_BATTERY_SHOW=false
-
+ZSH_THEME="robbyrussell"
 
 ENABLE_CORRECTION="true"
+
 plugins=(
   git
-  zsh-syntax-highlighting
   zsh-autosuggestions
+  fast-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#663399,standout"
-eval "$(starship init zsh)"
 
 #Aliases
 alias g="git"

@@ -7,6 +7,9 @@ set $mod Mod4
 #position top
 #}
 
+#remove ugly borders
+for_window [class=".*"] border pixel 0
+
 bindsym $mod+Return exec alacritty
 bindsym $mod+d exec --no-startup-id rofi -show drun
 bindsym $mod+shift+q kill

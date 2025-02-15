@@ -6,6 +6,7 @@
     builtins.elem (lib.getName pkg) [
       # Add additional package names here
       "vscode"
+      "github.copilot"
       ];
 
   # Home Manager needs a bit of information about you and the paths it should
@@ -75,12 +76,13 @@
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
+  nixpkgs.config.allowUnfree = true;
 
   programs.vscode = {
   enable = true;
   extensions = with pkgs.vscode-extensions; [
-    vscodevim.vim
     yzhang.markdown-all-in-one
+    github.copilot
     ];
   };
 }

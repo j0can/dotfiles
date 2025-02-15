@@ -26,3 +26,9 @@ IDE configuration is designed to provide a Atom like experience using Lua
   brew install ripgrep # Mac
   sudo apt install ripgrep # Linux
 ```
+
+### Management
+Fo eaiser management of dotfiles i use symlinks for my dotfiles ex.
+```bash
+ln -s ~/dotfiles/nix-darwin/home.nix ~/.config/home-manager/home.nix
+```

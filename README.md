@@ -1,4 +1,13 @@
 ## Dotfiles & Neovim Setup
+
+### Stuff I use
+- **OS**: [NixOS](https://nixos.org/)
+- **WM**: [i3](https://i3wm.org/)
+- **Terminal**: [Alacritty](https://github.com/alacritty/alacritty)
+- **Compositor**: [picom](https://github.com/yshui/picom)
+- **Launcher**: [rofi](https://github.com/davatorium/rofi)
+- **Bar**: [Polybar](https://github.com/polybar/polybar)
+
 IDE configuration is designed to provide a Atom like experience using Lua
 
 **Install Dependencies**:

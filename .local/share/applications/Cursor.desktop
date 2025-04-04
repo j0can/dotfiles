@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Cursor
+Exec=/home/user/Applications/Cursor-0.x.x-x.AppImage
+Icon=/home/user/Applications/cursor.png
+Type=Application
+Categories=Utility;
+Comment=Cursor IDE
+Terminal=false
